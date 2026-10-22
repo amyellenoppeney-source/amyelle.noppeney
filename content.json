@@ -30,4 +30,84 @@
       "year": "2026",
       "authors": "Amyelle Noppeney",
       "venue": "CISES - Centre for International Security and Economic Strategy",
-      "summary": "What does Berlin's Pride terrorist attack reveal about European security gaps? During Berlin’s Christopher Street Day celebrations, a car drove into the crowd near the Brandenburg Gate, killing one
+      "summary": "What does Berlin's Pride terrorist attack reveal about European security gaps? During Berlin’s Christopher Street Day celebrations, a car drove into the crowd near the Brandenburg Gate, killing one person and injuring dozens. The attacker, a 21‑year‑old German citizen who claimed responsibility on behalf of ISIS, fits the profile of the “homegrown lone actor” that European security agencies struggle most to detect. The attack underscores how public festivals, open streets, and minority communities remain exposed despite years of strengthened counter‑terrorism measures.",
+      "featured": true,
+      "links": [ { "label": "Read online", "url": "https://cises.org/2026/09/04/the-berlin-pride-terrorist-attack-how-europe-remains-vulnerable/" } ]
+    },
+    {
+      "title": "Placeholder: title of a policy brief",
+      "type": "Policy brief",
+      "year": "2025",
+      "authors": "Your Name",
+      "venue": "Organisation or think tank",
+      "summary": "Placeholder: two sentences on the policy problem and recommendation.",
+      "featured": true,
+      "placeholder": true,
+      "links": [ { "label": "Download PDF", "url": "example-brief.pdf", "download": true } ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Placeholder: research project title",
+      "period": "2025 to present",
+      "status": "Ongoing",
+      "summary": "Placeholder: what the project asks and how.",
+      "featured": true,
+      "placeholder": true,
+      "links": []
+    }
+  ],
+
+  "experience": {
+    "intro": "Placeholder: one sentence summarising your professional path.",
+    "groups": [
+      {
+        "title": "Research and policy",
+        "entries": [
+          {
+            "role": "Placeholder: role title",
+            "organisation": "Organisation name",
+            "location": "City, Country",
+            "period": "2025 to present",
+            "summary": "Placeholder: what you did and for whom.",
+            "highlights": ["Placeholder: one concrete, verifiable responsibility or output"],
+            "placeholder": true
+          }
+        ]
+      },
+      {
+        "title": "Institutional experience",
+        "entries": []
+      },
+      {
+        "title": "Editorial experience",
+        "entries": []
+      }
+    ]
+  },
+
+  "about": {
+    "intro": "Placeholder: one sentence on your academic profile.",
+    "biography": [
+      "Placeholder: a short paragraph on your academic and professional background, written in your own words."
+    ],
+    "education": [
+      { "degree": "Placeholder: degree", "institution": "University name", "period": "Years", "detail": "Optional: thesis topic, honours.", "placeholder": true }
+    ],
+    "languages": [
+      { "language": "Placeholder: language", "level": "Level, for example native, fluent, B2" }
+    ],
+    "methods": ["Placeholder: qualitative case studies", "Placeholder: comparative analysis"],
+    "skills": ["Placeholder: Stata, R or Python", "Placeholder: GIS, NVivo or similar"]
+  },
+
+  "contact": {
+    "intro": "For research collaboration, policy work or speaking enquiries.",
+    "email": "amyelle.noppeney@yahoo.fr",
+    "profiles": [
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/amyelle-noppeney-940782199" },
+      { "label": "ORCID", "url": "https://orcid.org/0009-0005-0391-8663" }
+    ]
+  }
+}
