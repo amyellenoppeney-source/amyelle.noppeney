@@ -1,7 +1,5 @@
-
 {
   "_readme": "ALL editable content lives in this file. Keep the quotes and commas exactly as they are. Items marked placeholder:true show a 'Placeholder' tag; delete that line when the item is real.",
-
   "site": {
     "name": "Amyelle Noppeney",
     "role": "Researcher and policy analyst, international security and counterterrorism",
@@ -14,7 +12,6 @@
       { "id": "contact", "file": "contact.html", "label": "Contact" }
     ]
   },
-
   "home": {
     "photo": "images/portrait.jpg",
     "intro": "Placeholder: write two or three sentences on who you are, what you study and what you want to contribute. Keep it factual and specific.",
@@ -28,11 +25,9 @@
       "Europe"
     ]
   },
-
   "research": {
     "intro": "Placeholder: one sentence describing your research agenda."
   },
-
   "publications": [
     {
       "title": "The Berlin Pride terrorist Attack: How Europe remains vulnerable",
@@ -67,7 +62,6 @@
       ]
     }
   ],
-
   "projects": [
     {
       "title": "Placeholder: research project title",
@@ -79,7 +73,6 @@
       "links": []
     }
   ],
-
   "experience": {
     "intro": "Placeholder: one sentence summarising your professional path.",
     "groups": [
@@ -109,7 +102,6 @@
       }
     ]
   },
-
   "about": {
     "intro": "Placeholder: one sentence on your academic profile.",
     "biography": [
@@ -139,7 +131,6 @@
       "Placeholder: GIS, NVivo or similar"
     ]
   },
-
   "contact": {
     "intro": "For research collaboration, policy work or speaking enquiries.",
     "email": "amyelle.noppeney@yahoo.fr",
