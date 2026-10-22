@@ -1,4 +1,3 @@
-
 {
   "_readme": "ALL editable content lives in this file. Keep the quotes and commas exactly as they are. Items marked placeholder:true show a 'Placeholder' tag; delete that line when the item is real.",
   "site": {
@@ -31,6 +30,15 @@
   },
   "publications": [
     {
+      "type": "Master’s Thesis",
+      "year": "2025",
+      "title": "The Emergence and Expansion of Terrorism in the Kashmir Conflict and International Responses (1987–post-2001)",
+      "authors": "Amyelle Noppeney",
+      "venue": "University of Lausanne",
+      "cover": "images/memoire.jpg",
+      "summary": "Master’s thesis supervised by Dr. Blain Auer."
+    },
+    {
       "title": "The Berlin Pride terrorist Attack: How Europe remains vulnerable",
       "type": "Briefing Note",
       "year": "2026",
@@ -49,7 +57,7 @@
     {
       "type": "Policy Brief",
       "year": "In press",
-      "title": "Thirty years after Aum: Assessing Japan’s counterterrorism model",
+      "title": "Assessing Japan’s counterterrorism model",
       "authors": "Amyelle Noppeney",
       "venue": "CISES (Center for International Security and Economic Strategy)",
       "summary": "Policy brief assessing Japan’s counterterrorism model thirty years after the Aum Shinrikyo attack."
@@ -70,21 +78,57 @@
       ]
     },
     {
-      "title": "Placeholder: title of a policy brief",
-      "type": "Policy brief",
-      "year": "2025",
-      "authors": "Your Name",
-      "venue": "Organisation or think tank",
-      "summary": "Placeholder: two sentences on the policy problem and recommendation.",
-      "featured": true,
-      "placeholder": true,
+      "type": "Podcast Episode",
+      "year": "2024",
+      "title": "Enjeux sécuritaires au Sri Lanka: Un État insulaire fragile",
+      "authors": "Amyelle Noppeney & Mathilde Domont",
+      "venue": "Tour d’horizon géopolitique, IEGA (Institut d’études de géopolitique appliquée)",
+      "cover": "images/podcast.jpg",
+      "summary": "Podcast episode discussing security challenges in Sri Lanka and the vulnerabilities of a fragile island state.",
       "links": [
         {
-          "label": "Download PDF",
-          "url": "example-brief.pdf",
-          "download": true
+          "label": "Listen on Spotify",
+          "url": "https://open.spotify.com/episode/6pg4JXzZHGzv2v0MHUVhu2?si=7c8738697581418e"
         }
       ]
+    },
+    {
+      "type": "Expert Interview",
+      "year": "2024",
+      "title": "Réélection de Narendra Modi en Inde: Une continuité politique?",
+      "authors": "Amyelle Noppeney, Mathilde Domont, Eva Benyahya-Blanc and Olivier Da Lage",
+      "venue": "IEGA (Institut d’études de géopolitique appliquée)",
+      "cover": "images/interview-modi.jpg",
+      "summary": "Interview with Olivier Da Lage on Narendra Modi’s re-election and political continuity in India.",
+      "links": [
+        {
+          "label": "Read interview",
+          "url": "https://www.institut-ega.org/l/reelection-de-narendra-modi-en-inde-une-continuite-politique/"
+        }
+      ]
+    },
+    {
+      "type": "Editorial Contribution",
+      "year": "2024",
+      "title": "Revue Diplomatique : Les puissances spatiales asiatiques: Concurrence et coopération",
+      "authors": "IEGA",
+      "venue": "No. 23, IEGA (Institut d’études de géopolitique appliquée)",
+      "cover": "images/revue-diplomatique.jpg",
+      "summary": "Editorial supervision, article selection and peer review, and editorial and redactional contributions to issue No. 23 of Revue Diplomatique.",
+      "links": [
+        {
+          "label": "View publication",
+          "url": "https://www.institut-ega.org/p/revue-diplomatique-no23-les-puissances-spatiales-asiatiques-concurrence-et-cooperation/"
+        }
+      ]
+    },
+    {
+      "type": "Academic Article",
+      "year": "In press",
+      "title": "Is diplomacy the best tool for peacebuilding and conflict resolution?",
+      "authors": "Amyelle Noppeney",
+      "venue": "CISES (Center for International Security and Economic Strategy)",
+      "summary": "Academic article examining the role of diplomacy in peacebuilding and conflict resolution."
     }
   ],
   "projects": [
