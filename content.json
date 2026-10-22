@@ -203,9 +203,29 @@
     ],
     "languages": [
       {
-        "language": "Placeholder: language",
-        "level": "Level, for example native, fluent, B2"
-      }
+        "language": "French",
+        "level": "Native"
+      },
+       {
+        "language": "English",
+        "level": "C1"
+      },
+       {
+        "language": "Spanish",
+        "level": "B1"
+      },
+       {
+        "language": "Italian",
+        "level": "B1"
+      },
+       {
+        "language": "Norwegian Bokmål",
+        "level": "A1"
+      },
+       {
+        "language": "Mandarin Chinese",
+        "level": "A1 - HSK2"
+      },
     ],
     "methods": [
       "Placeholder: qualitative case studies",
