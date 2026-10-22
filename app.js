@@ -20,6 +20,13 @@
       : "#";
   };
 
+  const getYouTubeId = (url) => {
+    const match = String(url ?? "").match(
+      /(?:youtube\.com\/(?:shorts\/|embed\/|watch\?v=)|youtu\.be\/)([A-Za-z0-9_-]{11})/
+    );
+    return match ? match[1] : "";
+  };
+
   const page = document.body.dataset.page || "home";
   const main = $("#main");
   if (!main) return;
@@ -95,15 +102,24 @@
       `).join("")}
     </div>`;
 
-  const pub = (item) => `
-    <li class="publication-card">
-      <div class="publication-sidebar">
-        <div class="publication-meta">
-          <span>${esc(item.type || "Publication")}</span>
-          ${item.year ? `<span>${esc(item.year)}</span>` : ""}
-        </div>
+  const pub = (item) => {
+    const videoId = getYouTubeId(item.video);
 
-        ${item.cover ? `
+    const media = videoId
+      ? `
+        <div class="publication-video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/${esc(videoId)}"
+            title="${esc(item.title || "YouTube video")}"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+      `
+      : item.cover
+        ? `
           <a class="cover-link"
             href="${esc(safeUrl(item.cover))}"
             target="_blank"
@@ -114,37 +130,32 @@
               alt="Cover of ${esc(item.title)}"
               loading="lazy">
           </a>
-        ` : ""}
-      </div>
+        `
+        : "";
 
-      <div class="publication-content">
-        <h3>${esc(item.title)}${flag(item)}</h3>
+    return `
+      <li class="publication-card">
+        <div class="publication-sidebar">
+          <div class="publication-meta">
+            <span>${esc(item.type || "Publication")}</span>
+            ${item.year ? `<span>${esc(item.year)}</span>` : ""}
+          </div>
 
-        <p class="sub">
-          ${esc([item.authors, item.venue].filter(Boolean).join(" · "))}
-        </p>
+          ${media}
+        </div>
 
-        ${p(item.summary, "publication-summary")}
-        
-${item.video ? `
-  <div class="publication-video">
-    <iframe
-      src="https://www.youtube-nocookie.com/embed/${esc(
-        item.video.match(/(?:shorts\/|watch\?v=|youtu\.be\/)([A-Za-z0-9_-]+)/)?.[1] || ""
-      )}"
-      title="${esc(item.title)}"
-      loading="lazy"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen>
-    </iframe>
-  </div>
-` : ""}
+        <div class="publication-content">
+          <h3>${esc(item.title)}${flag(item)}</h3>
 
-        ${linkList(item.links)}
-      </div>
-    </li>`;
+          <p class="sub">
+            ${esc([item.authors, item.venue].filter(Boolean).join(" · "))}
+          </p>
+
+          ${p(item.summary, "publication-summary")}
+          ${linkList(item.links)}
+        </div>
+      </li>`;
+  };
 
   const project = (item) => `
     <li class="item">
@@ -217,14 +228,12 @@ ${item.video ? `
     const aIsEditorial = a.type === "Editorial Contribution";
     const bIsEditorial = b.type === "Editorial Contribution";
 
-    // Editorial contributions always appear at the end.
     if (aIsEditorial && !bIsEditorial) return 1;
     if (!aIsEditorial && bIsEditorial) return -1;
 
     const orderA = publicationOrder.indexOf(a.type);
     const orderB = publicationOrder.indexOf(b.type);
 
-    // Keep unlisted types after the specified types.
     if (orderA === -1 && orderB === -1) return 0;
     if (orderA === -1) return 1;
     if (orderB === -1) return -1;
