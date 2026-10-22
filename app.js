@@ -125,6 +125,23 @@
         </p>
 
         ${p(item.summary, "publication-summary")}
+        
+${item.video ? `
+  <div class="publication-video">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/${esc(
+        item.video.match(/(?:shorts\/|watch\?v=|youtu\.be\/)([A-Za-z0-9_-]+)/)?.[1] || ""
+      )}"
+      title="${esc(item.title)}"
+      loading="lazy"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+` : ""}
+
         ${linkList(item.links)}
       </div>
     </li>`;
