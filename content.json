@@ -16,7 +16,7 @@
 
   "home": {
     "intro": "Placeholder: write two or three sentences on who you are, what you study and what you want to contribute. Keep it factual and specific.",
-    "interests": ["International security", "Counterterrorism", "International institutional cooperation", "Placeholder: add or remove interests"]
+    "interests": ["International security", "Counterterrorism", "International cooperation", "Diplomacy","International relations","East Asia","Europe"]
   },
 
   "research": {
@@ -105,11 +105,10 @@
 
   "contact": {
     "intro": "For research collaboration, policy work or speaking enquiries.",
-    "email": "your.name@example.com",
+    "email": "amyelle.noppeney@yahoo.fr",
     "profiles": [
-      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-profile" },
-      { "label": "ORCID", "url": "https://orcid.org/0000-0000-0000-0000" },
-      { "label": "Google Scholar", "url": "https://scholar.google.com" }
+      { "label": "LinkedIn", "url": "www.linkedin.com/in/amyelle-noppeney-940782199" },
+      { "label": "ORCID", "url": "https://orcid.org/0009-0005-0391-8663" },
     ]
   }
 }
