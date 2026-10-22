@@ -224,7 +224,7 @@
        {
         "language": "Mandarin Chinese",
         "level": "A1 - HSK2"
-      },
+      }
     ],
     "methods": [
       "Placeholder: qualitative case studies",
@@ -232,7 +232,6 @@
     ],
     "skills": [
       "Placeholder: Stata, R or Python",
-      "Placeholder: GIS, NVivo or similar"
     ]
   },
   "contact": {
