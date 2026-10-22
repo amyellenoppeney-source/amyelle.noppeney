@@ -157,7 +157,7 @@ nav a[aria-current="page"] {
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center;
-  filter: grayscale(100%);
+  filter: none;;
 }
 
 /* Page headings */
