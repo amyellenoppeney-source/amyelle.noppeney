@@ -45,6 +45,29 @@
         }
       ]
     },
+
+    {
+  "type": "Policy Brief",
+  "year": "In press",
+  "title": "Thirty years after Aum: Assessing Japan’s counterterrorism model",
+  "authors": "Amyelle Noppeney",
+  "venue": "CISES (Center for International Security and Economic Strategy)",
+  "summary": "Policy brief on Japan’s counterterrorism model thirty years after the Aum Shinrikyo attack."
+},
+{
+  "type": "Policy Brief",
+  "year": "2024",
+  "title": "La place des droits humains suite au développement rapide de la cité-État de Singapour",
+  "authors": "Amyelle Noppeney",
+  "venue": "Association Mosaïque UNIL",
+  "summary": "Human rights in the wake of Singapore’s rapid development as a city-state.",
+  "links": [
+    {
+      "label": "Read on Instagram",
+      "url": "https://www.instagram.com/p/C5EUUYsIXgO/?img_index=1"
+    }
+  ]
+}
     {
       "title": "Placeholder: title of a policy brief",
       "type": "Policy brief",
