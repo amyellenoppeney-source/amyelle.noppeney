@@ -8,9 +8,8 @@ Plain HTML, CSS and JavaScript. No build step, no backend, no cost. Works on fre
 |---|---|
 | `content.json` | **All your content.** This is the only file you normally edit. |
 | `index.html`, `research.html`, `experience.html`, `about.html`, `contact.html` | Page shells. Only the title and description in `<head>` are worth editing. |
-| `css/styles.css` | Design system. Colours, fonts and spacing are variables at the top. |
-| `js/app.js` | Builds each page from `content.json`. |
-| `files/` | Put downloadable PDFs here. |
+| `styles.css` | Design system. Colours, fonts and spacing are variables at the top. |
+| `app.js` | Builds each page from `content.json`. |
 | `robots.txt` | Search engine instructions. |
 
 ## 1. Download and preview locally
