@@ -557,3 +557,9 @@ footer .footer-inner {
   height: 100%;
   border: 0;
 }
+
+
+/* Article links in bold */
+.publication-card a {
+  font-weight: 700;
+}
