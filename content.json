@@ -68,24 +68,7 @@
       "url": "https://www.instagram.com/p/C5EUUYsIXgO/?img_index=1"
     }
   ]
-}
-    {
-      "title": "Placeholder: title of a policy brief",
-      "type": "Policy brief",
-      "year": "2025",
-      "authors": "Your Name",
-      "venue": "Organisation or think tank",
-      "summary": "Placeholder: two sentences on the policy problem and recommendation.",
-      "featured": true,
-      "placeholder": true,
-      "links": [
-        {
-          "label": "Download PDF",
-          "url": "example-brief.pdf",
-          "download": true
-        }
-      ]
-    }
+},
   ],
   "projects": [
     {
