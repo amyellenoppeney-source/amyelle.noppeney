@@ -12,15 +12,13 @@
       "'": "&#39;"
     }[c]));
 
- 
-const safeUrl = (url) => {
-  const value = String(url ?? "").trim();
+  const safeUrl = (url) => {
+    const value = String(url ?? "").trim();
 
-  return /^(https?:\/\/\S+|mailto:\S+|tel:\S+|images\/[\w./-]+|files\/[\w./-]+|[\w./-]+\.(pdf|html|png|jpe?g|webp|svg))$/i.test(value)
-    ? value
-    : "#";
-};
-
+    return /^(https?:\/\/\S+|mailto:\S+|tel:\S+|images\/[\w./-]+|files\/[\w./-]+|[\w./-]+\.(pdf|html|png|jpe?g|webp|svg))$/i.test(value)
+      ? value
+      : "#";
+  };
 
   const page = document.body.dataset.page || "home";
   const main = $("#main");
@@ -97,8 +95,6 @@ const safeUrl = (url) => {
       `).join("")}
     </div>`;
 
-  
-  
   const pub = (item) => `
     <li class="publication-card">
       <div class="publication-sidebar">
@@ -132,7 +128,6 @@ const safeUrl = (url) => {
         ${linkList(item.links)}
       </div>
     </li>`;
-
 
   const project = (item) => `
     <li class="item">
@@ -191,9 +186,34 @@ const safeUrl = (url) => {
       <span>${esc(S.footerNote || "")}</span>
     </div>`;
 
-  const publications = asList(C.publications).slice().sort((a, b) =>
-    String(b.year || "").localeCompare(String(a.year || ""))
-  );
+  /* Custom publication order */
+  const publicationOrder = [
+    "Master’s Thesis",
+    "Academic Article",
+    "Policy Brief",
+    "Briefing Note",
+    "Expert Interview",
+    "Podcast Episode"
+  ];
+
+  const publications = asList(C.publications).slice().sort((a, b) => {
+    const aIsEditorial = a.type === "Editorial Contribution";
+    const bIsEditorial = b.type === "Editorial Contribution";
+
+    // Editorial contributions always appear at the end.
+    if (aIsEditorial && !bIsEditorial) return 1;
+    if (!aIsEditorial && bIsEditorial) return -1;
+
+    const orderA = publicationOrder.indexOf(a.type);
+    const orderB = publicationOrder.indexOf(b.type);
+
+    // Keep unlisted types after the specified types.
+    if (orderA === -1 && orderB === -1) return 0;
+    if (orderA === -1) return 1;
+    if (orderB === -1) return -1;
+
+    return orderA - orderB;
+  });
 
   const pages = {
     home() {
