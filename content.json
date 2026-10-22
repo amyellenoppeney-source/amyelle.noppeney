@@ -1,3 +1,4 @@
+
 {
   "_readme": "ALL editable content lives in this file. Keep the quotes and commas exactly as they are. Items marked placeholder:true show a 'Placeholder' tag; delete that line when the item is real.",
   "site": {
@@ -77,21 +78,21 @@
         }
       ]
     },
-{
-  "type": "Video",
-  "year": "2026",
-  "title": "Is Myanmar's Junta Using Suu Kyi for Political Gain ?",
-  "authors": "Amyelle Noppeney",
-  "venue": "CISES (Center for International Security and Economic Strategy)",
-  "summary": "This video explores : 1) The significance of Suu Kyi's first know contact with an international representative since 2021. 2) Why the junta released the images now. 3) The political context surrounding Myanmar's April 2026 elections. 4) The junta's efforts to improve its relationship with ASEAN. 5) How the images could help Myanmar's military project legitimacy and reduce international pressure..",
-  "video": "https://www.youtube.com/shorts/K9otUGtCM3I",
-  "links": [
     {
-      "label": "Watch on YouTube",
-      "url": "https://www.youtube.com/shorts/K9otUGtCM3I"
-    }
-  ]
-},
+      "type": "Video",
+      "year": "2026",
+      "title": "Is Myanmar's Junta Using Suu Kyi for Political Gain ?",
+      "authors": "Amyelle Noppeney",
+      "venue": "CISES (Center for International Security and Economic Strategy)",
+      "summary": "This video explores : 1) The significance of Suu Kyi's first know contact with an international representative since 2021. 2) Why the junta released the images now. 3) The political context surrounding Myanmar's April 2026 elections. 4) The junta's efforts to improve its relationship with ASEAN. 5) How the images could help Myanmar's military project legitimacy and reduce international pressure..",
+      "video": "https://www.youtube.com/shorts/K9otUGtCM3I",
+      "links": [
+        {
+          "label": "Watch on YouTube",
+          "url": "https://www.youtube.com/shorts/K9otUGtCM3I"
+        }
+      ]
+    },
     {
       "type": "Podcast Episode",
       "year": "2024",
@@ -205,23 +206,23 @@
         "language": "French",
         "level": "Native"
       },
-       {
+      {
         "language": "English",
         "level": "C1"
       },
-       {
+      {
         "language": "Spanish",
         "level": "B1"
       },
-       {
+      {
         "language": "Italian",
         "level": "B1"
       },
-       {
+      {
         "language": "Norwegian Bokmål",
         "level": "A1"
       },
-       {
+      {
         "language": "Mandarin Chinese",
         "level": "A1 - HSK2"
       }
@@ -232,6 +233,7 @@
     ],
     "skills": [
       "Placeholder: Stata, R or Python",
+      "Placeholder: GIS, NVivo or similar"
     ]
   },
   "contact": {
