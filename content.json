@@ -25,12 +25,14 @@
 
   "publications": [
     {
-      "title": "Placeholder: title of a journal article",
-      "type": "Article",
+      "title": "The Berlin Pride terrorist Attack: How Europe remains vulnerable",
+      "type": "Briefing Note",
       "year": "2026",
-      "authors": "Your Name",
-      "venue": "Journal name or Under review",
-      "summary": "Placeholder: two sentences summarising the question, method and finding.",
+      "authors": "Amyelle Noppeney",
+      "venue": "CISES - Centre for International Security and Economic Strategy",
+      "summary": "What does Berlin's Pride terrorist attack reveal about European security gaps? 
+
+During Berlin’s Christopher Street Day celebrations, a car drove into the crowd near the Brandenburg Gate, killing one person and injuring dozens. The attacker — a 21‑year‑old German citizen who claimed responsibility on behalf of ISIS — fits the profile of the “homegrown lone actor” that European security agencies struggle most to detect. The attack underscores how public festivals, open streets, and minority communities remain exposed despite years of strengthened counter‑terrorism measures.",
       "featured": true,
       "placeholder": true,
       "links": [ { "label": "Read online", "url": "https://example.com" } ]
