@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# After publishing, add: Sitemap: https://YOUR-USERNAME.github.io/YOUR-REPO/sitemap.xml

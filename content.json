@@ -1,0 +1,115 @@
+{
+  "_readme": "ALL editable content lives in this file. Keep the quotes and commas exactly as they are. Items marked placeholder:true show a 'Placeholder' tag; delete that line when the item is real.",
+
+  "site": {
+    "name": "Your Name",
+    "role": "Researcher and policy analyst, international security and counterterrorism",
+    "footerNote": "Add a short note here, for example your city or a citation line.",
+    "nav": [
+      { "id": "home", "file": "index.html", "label": "Home" },
+      { "id": "research", "file": "research.html", "label": "Research" },
+      { "id": "experience", "file": "experience.html", "label": "Experience" },
+      { "id": "about", "file": "about.html", "label": "About" },
+      { "id": "contact", "file": "contact.html", "label": "Contact" }
+    ]
+  },
+
+  "home": {
+    "intro": "Placeholder: write two or three sentences on who you are, what you study and what you want to contribute. Keep it factual and specific.",
+    "interests": ["International security", "Counterterrorism", "International institutional cooperation", "Placeholder: add or remove interests"]
+  },
+
+  "research": {
+    "intro": "Placeholder: one sentence describing your research agenda."
+  },
+
+  "publications": [
+    {
+      "title": "Placeholder: title of a journal article",
+      "type": "Article",
+      "year": "2026",
+      "authors": "Your Name",
+      "venue": "Journal name or Under review",
+      "summary": "Placeholder: two sentences summarising the question, method and finding.",
+      "featured": true,
+      "placeholder": true,
+      "links": [ { "label": "Read online", "url": "https://example.com" } ]
+    },
+    {
+      "title": "Placeholder: title of a policy brief",
+      "type": "Policy brief",
+      "year": "2025",
+      "authors": "Your Name",
+      "venue": "Organisation or think tank",
+      "summary": "Placeholder: two sentences on the policy problem and recommendation.",
+      "featured": true,
+      "placeholder": true,
+      "links": [ { "label": "Download PDF", "url": "files/example-brief.pdf", "download": true } ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Placeholder: research project title",
+      "period": "2025 to present",
+      "status": "Ongoing",
+      "summary": "Placeholder: what the project asks and how.",
+      "featured": true,
+      "placeholder": true,
+      "links": []
+    }
+  ],
+
+  "experience": {
+    "intro": "Placeholder: one sentence summarising your professional path.",
+    "groups": [
+      {
+        "title": "Research and policy",
+        "entries": [
+          {
+            "role": "Placeholder: role title",
+            "organisation": "Organisation name",
+            "location": "City, Country",
+            "period": "2025 to present",
+            "summary": "Placeholder: what you did and for whom.",
+            "highlights": ["Placeholder: one concrete, verifiable responsibility or output"],
+            "placeholder": true
+          }
+        ]
+      },
+      {
+        "title": "Institutional experience",
+        "entries": []
+      },
+      {
+        "title": "Editorial experience",
+        "entries": []
+      }
+    ]
+  },
+
+  "about": {
+    "intro": "Placeholder: one sentence on your academic profile.",
+    "biography": [
+      "Placeholder: a short paragraph on your academic and professional background, written in your own words."
+    ],
+    "education": [
+      { "degree": "Placeholder: degree", "institution": "University name", "period": "Years", "detail": "Optional: thesis topic, honours.", "placeholder": true }
+    ],
+    "languages": [
+      { "language": "Placeholder: language", "level": "Level, for example native, fluent, B2" }
+    ],
+    "methods": ["Placeholder: qualitative case studies", "Placeholder: comparative analysis"],
+    "skills": ["Placeholder: Stata, R or Python", "Placeholder: GIS, NVivo or similar"]
+  },
+
+  "contact": {
+    "intro": "For research collaboration, policy work or speaking enquiries.",
+    "email": "your.name@example.com",
+    "profiles": [
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-profile" },
+      { "label": "ORCID", "url": "https://orcid.org/0000-0000-0000-0000" },
+      { "label": "Google Scholar", "url": "https://scholar.google.com" }
+    ]
+  }
+}
