@@ -12,12 +12,15 @@
       "'": "&#39;"
     }[c]));
 
-  const safeUrl = (url) => {
-    const value = String(url ?? "").trim();
-    return /^(https?:\/\/|mailto:|tel:|images\/|files\/|[\w./-]+\.(pdf|html|png|jpe?g|webp|svg))$/i.test(value)
-      ? value
-      : "#";
-  };
+ 
+const safeUrl = (url) => {
+  const value = String(url ?? "").trim();
+
+  return /^(https?:\/\/\S+|mailto:\S+|tel:\S+|images\/[\w./-]+|files\/[\w./-]+|[\w./-]+\.(pdf|html|png|jpe?g|webp|svg))$/i.test(value)
+    ? value
+    : "#";
+};
+
 
   const page = document.body.dataset.page || "home";
   const main = $("#main");
