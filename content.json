@@ -77,6 +77,22 @@
         }
       ]
     },
+    
+{
+  "type": "Video Analysis - Youtube Short",
+  "year": "2026",
+  "title": "Is Myanmar's Junta Using Suu Kyi for Political Gain ?",
+  "authors": "Amyelle Noppeney",
+  "venue": "CISES (Center for International Security and Economic Strategy)",
+  "summary": "This video explores : 1) The significance of Suu Kyi's first know contact with an international representative since 2021. 2) Why the junta released the images now. 3) The political context surrounding Myanmar's April 2026 elections. 4) The junta's efforts to improve its relationship with ASEAN. 5) How the images could help Myanmar's military project legitimacy and reduce international pressure.",
+  "video": "https://www.youtube.com/shorts/K9otUGtCM3I",
+  "links": [
+    {
+      "label": "Watch on YouTube",
+      "url": "https://www.youtube.com/shorts/K9otUGtCM3I"
+    }
+  ]
+},
     {
       "type": "Podcast Episode",
       "year": "2024",
