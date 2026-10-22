@@ -94,33 +94,41 @@
       `).join("")}
     </div>`;
 
+  
   const pub = (item) => `
     <li class="publication-card">
-      ${item.cover ? `
-        <a class="cover-link"
-          href="${esc(safeUrl(item.cover))}"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Open cover for ${esc(item.title)}">
-          <img class="publication-cover"
-            src="${esc(safeUrl(item.cover))}"
-            alt="Cover of ${esc(item.title)}"
-            loading="lazy">
-        </a>
-      ` : ""}
-      <div class="publication-content">
+      <div class="publication-sidebar">
         <div class="publication-meta">
           <span>${esc(item.type || "Publication")}</span>
           ${item.year ? `<span>${esc(item.year)}</span>` : ""}
         </div>
+
+        ${item.cover ? `
+          <a class="cover-link"
+            href="${esc(safeUrl(item.cover))}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open cover for ${esc(item.title)}">
+            <img class="publication-cover"
+              src="${esc(safeUrl(item.cover))}"
+              alt="Cover of ${esc(item.title)}"
+              loading="lazy">
+          </a>
+        ` : ""}
+      </div>
+
+      <div class="publication-content">
         <h3>${esc(item.title)}${flag(item)}</h3>
+
         <p class="sub">
           ${esc([item.authors, item.venue].filter(Boolean).join(" · "))}
         </p>
+
         ${p(item.summary, "publication-summary")}
         ${linkList(item.links)}
       </div>
     </li>`;
+
 
   const project = (item) => `
     <li class="item">
