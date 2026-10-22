@@ -30,13 +30,10 @@
       "year": "2026",
       "authors": "Amyelle Noppeney",
       "venue": "CISES - Centre for International Security and Economic Strategy",
-      "summary": "What does Berlin's Pride terrorist attack reveal about European security gaps? 
-
-During Berlin’s Christopher Street Day celebrations, a car drove into the crowd near the Brandenburg Gate, killing one person and injuring dozens. The attacker — a 21‑year‑old German citizen who claimed responsibility on behalf of ISIS — fits the profile of the “homegrown lone actor” that European security agencies struggle most to detect. The attack underscores how public festivals, open streets, and minority communities remain exposed despite years of strengthened counter‑terrorism measures."
-      "featured": true,
-      "placeholder": true,
-      "links": [ { "label": "Read online", "url": "https://cises.org/2026/09/04/the-berlin-pride-terrorist-attack-how-europe-remains-vulnerable/" } ]
-    },
+     "summary": "What does Berlin's Pride terrorist attack reveal about European security gaps? During Berlin’s Christopher Street Day celebrations, a car drove into the crowd near the Brandenburg Gate, killing one person and injuring dozens. The attacker, a 21‑year‑old German citizen who claimed responsibility on behalf of ISIS, fits the profile of the “homegrown lone actor” that European security agencies struggle most to detect. The attack underscores how public festivals, open streets, and minority communities remain exposed despite years of strengthened counter‑terrorism measures.",
+"featured": true,
+"links": [ { "label": "Read online", "url": "https://cises.org/2026/09/04/the-berlin-pride-terrorist-attack-how-europe-remains-vulnerable/" } ]
+},
     {
       "title": "Placeholder: title of a policy brief",
       "type": "Policy brief",
